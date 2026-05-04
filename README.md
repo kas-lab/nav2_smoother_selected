@@ -21,5 +21,7 @@ For example:
 If you set the selected_smoother to 'disabled', then IsSmootherSelected will return FAILURE, which when inverted (becomes SUCCESS) in the fallback leads to the SmoothPath not being ticked.
 
 To set this up just make sure to build this package, and add this entry:
+```
       - nav2_is_smoother_selected_bt_node
-To the plugin_lib_names parater of the bt_navigator node from nav2.
+```
+To the plugin_lib_names parameter of the bt_navigator node from nav2.
